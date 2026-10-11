@@ -39,7 +39,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 From GitHub:
 
 ```bash
-uv add "spark-async @ git+https://github.com/<owner>/spark-async"
+uv add "spark-async @ git+https://github.com/michalklempa/spark-async"
 ```
 
 From a local checkout:
@@ -108,7 +108,7 @@ os.environ["PYSPARK_PYTHON"] = sys.executable
 ## Develop
 
 ```bash
-git clone https://github.com/<owner>/spark-async
+git clone https://github.com/michalklempa/spark-async
 cd spark-async
 uv sync
 ```
